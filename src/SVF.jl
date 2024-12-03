@@ -87,3 +87,6 @@ function process!(s::State, input_buffer, output_buffer, sample_count, highgain,
     
     output_buffer
 end
+
+end
+
