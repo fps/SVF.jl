@@ -1,5 +1,7 @@
 module SVF
 
+export State, process!
+
 struct CommonProcessingResult{T<:AbstractFloat}
   w::T
   a::T
@@ -23,7 +25,7 @@ mutable struct State{T<:AbstractFloat}
   z2::T
 end
 
-State() = State(0.0,0.0)
+State() = State(0.0, 0.0)
 
 struct D1D0{T<:AbstractFloat}
   d1::T
