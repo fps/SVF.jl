@@ -1,4 +1,4 @@
-module StateVariableFilter
+module SVF
 
 struct CommonProcessingResult{T<:AbstractFloat}
   w::T
