@@ -1,0 +1,5 @@
+name = "SVF.jl"
+uuid = "e4974282-f47c-4920-baad-a3ebf6911431"
+version = "0.0.1"
+authors = [ "Florian Paul Schmidt <mista.tapas@gmx.net>" ]
+
